@@ -9,7 +9,7 @@ export default function Slide4(){
      <div className={styles.row}>
      <div className={styles.Img}>
              <div className={styles.imgbox}>
-                 <img src={image7} />
+                 <img src={image7} alt='image7' />
                 
              </div>
 

@@ -17,7 +17,7 @@ export default function Slide1(){
              </div>
              <div className={styles.Img}>
                  <div className={styles.imgbox}>
-                     <img src={image1}/>
+                     <img src={image1} alt='image2'/>
                     
                  </div>
 

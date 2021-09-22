@@ -19,10 +19,10 @@ export default function  Slide7(){
                <h1>Every logistics truck driver<br /> dream app. Make deliveries<br /> in a stres free manner</h1>
                   <div className={styles.image}>
                   <div className={styles.image1}>
-                   <img src={image11} height='50px' />
+                   <img src={image11} height='50px' alt='image11' />
                    </div>
                    <div className={styles.image2}>
-                   <img src={image12} height='50px' />
+                   <img src={image12} height='50px' alt='image12' />
                    </div>
                   </div>
                    </div>

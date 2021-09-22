@@ -35,7 +35,7 @@ export default function Slide5(){
          
          <div className={styles.Img}>
              <div className={styles.imgbox}>
-                  <img src={image8} />  
+                  <img src={image8}alt='image8' />  
                 
              </div>
 

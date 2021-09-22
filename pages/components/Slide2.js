@@ -16,11 +16,11 @@ export default function Slide2(){
         <div className={styles.logo}>
            
            <ul>
-               <li><img src={providusbank} /></li>
-               <li><img src={mansard} /> </li>
-               <li><img src={paystack} /> </li>
-               <li><img src={exalt} /> </li>
-               <li><img src={aws} /> </li>
+               <li><img src={providusbank} alt='logo1'/></li>
+               <li><img src={mansard} alt='logo2' /> </li>
+               <li><img src={paystack}  alt='logo3'/> </li>
+               <li><img src={exalt} alt='logo4' /> </li>
+               <li><img src={aws} alt='logo5'/> </li>
                </ul>
         </div>
                

@@ -16,7 +16,7 @@ export default function  Slide8(){
             </div>
             <div className={styles.Img}>
                 <div className={styles.imgbox}>
-                    <img src={image12} width='500px'/> 
+                    <img src={image12} width='500px' alt='image12'/> 
                    
                 </div>
 

@@ -22,7 +22,7 @@ export default function Slide3(){
              </div>
              <div className={styles.Img}>
                  <div className={styles.imgbox}>
-                     <img src={image5} /> 
+                     <img src={image5} alt='image5' /> 
                     
                  </div>
 

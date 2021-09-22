@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <div className={styles.navbar}>
         <div className={styles.logo}>
-        <img src={image1} />
+        <img src={image1} alt='image1'/>
         </div>
         <div className={styles.litext}>
             <ul>
