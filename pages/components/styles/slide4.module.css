@@ -1,0 +1,33 @@
+ .container{
+    padding: 110px;
+    margin-top: -200px;
+ }
+
+  .row{
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .text{
+     position: relative;
+     width: 48%;
+ 
+ }
+ .imgbox{
+     position: relative;
+     width: 100%;
+    margin-left: 100px;
+ }
+ .text button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    
+
+}
+ 

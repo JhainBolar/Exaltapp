@@ -1,0 +1,21 @@
+.logo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo ul{
+    margin-top: -10px;
+    list-style: none;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+
+}
+.logo ul li{
+    padding: 20px;
+}
+.textl{
+    margin-left: 110px;
+    font-weight: bold;
+}

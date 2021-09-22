@@ -1,0 +1,49 @@
+.container{
+    padding: 110px;
+    margin-top: -10px;
+ }
+ .row{
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ .text{
+     position: relative;
+     width: 48%;
+ 
+ }
+ .text h1{
+     font-size: 3rem;
+     font-weight: bold;
+ }
+ .imgbox{
+     position: relative;
+     width: 100%;
+     margin-right: 400px;
+     margin-top: 200px;
+ }
+ .imgbox p span{
+     color: red;
+ }
+
+ .text button{
+     padding: 15px 60px;
+     background-color: red;
+     color: white;
+     border-radius: 5px;
+     border: none;
+ }
+ .text input{
+    width:400px;
+    height: 40px;
+ }
+
+ .input3 input{
+    font-size:18pt;
+    height:120px;
+    width:400px;
+   }
+.text button{
+    margin-top: 20px;
+}

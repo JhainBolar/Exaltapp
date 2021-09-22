@@ -1,0 +1,48 @@
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.litext{
+    position: relative;
+    display: flex;
+}
+    
+    
+
+.litext ul{
+    list-style: none;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+
+} 
+.litext ul li{
+    padding: 20px;
+    margin-top: -27px;
+}
+.button{
+    padding: 10px;
+    margin-top: -30px;
+}
+.button button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+.button1{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+.button2{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding-left: 1000px;
+}

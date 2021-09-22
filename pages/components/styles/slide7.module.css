@@ -1,0 +1,36 @@
+.container{
+    padding: 150px;
+    margin-top: -20px;
+ }
+ .row{
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ .text{
+     position: relative;
+     width: 48%;
+     margin-top: 50px;
+ 
+ }
+ .text h1{
+     
+     font-weight: bold;
+ }
+ .imgbox{
+     position: relative;
+     width: 20%;
+     margin-left: 200px;
+      
+ }
+
+ .image{
+   display: flex;
+ }
+ .image1{
+     margin-left: 10px;
+ }
+ .image2{
+     margin-left: 20px;
+ }
