@@ -6,7 +6,6 @@ import image7 from '../../public/lome.jpg'
 export default function Slide4(){
     return(
         <div className={styles.container}>
-     <div className={styles.row}>
      <div className={styles.Img}>
              <div className={styles.imgbox}>
                  <img src={image7} alt='image7' />
@@ -25,12 +24,6 @@ export default function Slide4(){
                 <button>Register Today</button>
             
          </div>
-        
-
-
-
-
-     </div>
 
  </div>
     )

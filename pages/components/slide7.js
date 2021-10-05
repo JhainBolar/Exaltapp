@@ -7,7 +7,7 @@ import image12 from '../../public/appstore2.png'
 export default function  Slide7(){
     return(
         <div className={styles.container}>
-        <div className={styles.row}>
+        
         <div className={styles.Img}>
                 <div className={styles.imgbox}>
                 <img src={image10}/> 
@@ -28,7 +28,7 @@ export default function  Slide7(){
                    </div>
             </div>
            
-        </div>
+     
 
     )
 }

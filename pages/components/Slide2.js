@@ -9,7 +9,7 @@ import aws from '../../public/aws.png'
 
 export default function Slide2(){
     return(
-    <div>
+    <div className={styles.whole}>
         <div className={styles.textl}>
          Our Partners 
         </div>
@@ -20,8 +20,7 @@ export default function Slide2(){
                <li><img src={mansard} alt='logo2' /> </li>
                <li><img src={paystack}  alt='logo3'/> </li>
                <li><img src={exalt} alt='logo4' /> </li>
-               <li><img src={aws} alt='logo5'/> </li>
-               </ul>
+           </ul>
         </div>
                
             

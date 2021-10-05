@@ -4,5 +4,8 @@
     // Other rules
     "@next/next/no-img-element": "off",
      "react/no-unescaped-entities": 0 
+  },
+  "parserOptions": {
+    "emcaVersion": 6
   }
 }

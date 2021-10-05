@@ -1,4 +1,4 @@
-.container{
+/* .container{
     padding: 110px;
     margin-top: -10px;
  }
@@ -36,4 +36,33 @@
      width: 50%;
      color:  blue;
 
- }
+ } */
+.container{
+        padding: 100px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+.text{
+    position: relative;
+    width: 50%;
+}
+.img{
+    flex: 50%;
+}
+@media (max-width: 768px){
+    .container{
+        width: 220%;
+        padding: 50px;
+        flex-direction: column;
+    }
+    .text{
+        max-width: 100%;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .imgbox img{
+        display: none;
+    }
+}
+   

@@ -4,7 +4,7 @@ import styles from '../components/styles/slide9.module.css'
 export default function  Slide7(){
     return(
         <div className={styles.container}>
-        <div className={styles.row}>
+     
             <div className={styles.text}>
                <h1>Get In Touch With Us.</h1>
                <p>Have a complaint  or just need help in any of our services.<br /> Just fill out the form below and you will recive a reply soonest</p>
@@ -35,7 +35,7 @@ export default function  Slide7(){
 
 
 
-        </div>
+        
 
     </div>  
     )

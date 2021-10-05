@@ -1,21 +1,32 @@
 .logo{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+    padding: 50px;
 }
+.textl{
+    margin-left: 110px;
+    font-weight: bold;
+}
+
 .logo ul{
-    margin-top: -10px;
-    list-style: none;
     display: flex;
     list-style: none;
-    margin-left: 30px;
+   
 
 }
+@media (max-width: 768px) {
+ .whole{
+    width: 220%;
+}
+.textl{
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin-left: 50px;
+}
+}
+/*
 .logo ul li{
     padding: 20px;
 }
 .textl{
     margin-left: 110px;
     font-weight: bold;
-}
+} */

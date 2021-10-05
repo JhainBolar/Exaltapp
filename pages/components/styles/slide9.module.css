@@ -1,6 +1,10 @@
 .container{
     padding: 110px;
     margin-top: -10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
  }
  .row{
      position: relative;
@@ -46,4 +50,25 @@
    }
 .text button{
     margin-top: 20px;
+    
+}
+@media (max-width: 768px){
+    .container{
+        width: 200%;
+        padding: 50px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .text{
+            max-width: 100%;
+            font-size: 2rem;
+            width: 100%; 
+    }
+    .imgbox  p{
+        font-size: 2rem;
+    }
+    .text input{
+        border: 1px solid black;
+        font-size: 2rem;
+    }
 }

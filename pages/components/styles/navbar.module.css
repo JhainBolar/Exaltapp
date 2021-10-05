@@ -1,48 +1,97 @@
-.navbar{
-    top: 0;
-    left: 0;
+.navb{
     width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    align-content: center;
+    position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+    background-color: white;
+    background:white;
+    z-index:99;
+    box-shadow: 0px 3px 3px 3px lightgray;
+ 
 }
-.litext{
-    position: relative;
-    display: flex;
+.log{
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
 }
-    
-    
+.litex{
+     float: right; 
+     display: flex;
+     margin-top: 30px;
+   
+}
 
-.litext ul{
-    list-style: none;
-    display: flex;
-    list-style: none;
-    margin-left: 30px;
-
-} 
-.litext ul li{
-    padding: 20px;
-    margin-top: -27px;
+.headerPagesLink{
+     list-style: none;
+    display: inline-block;
+    padding: 5px 30px;
+   
 }
+.headerPagesLink:hover{
+    color: red;
+    text-decoration: underline;
+}
+
 .button{
-    padding: 10px;
-    margin-top: -30px;
-}
-.button button{
-    padding: 5px 20px;
-    border-radius: 10px;
-    margin: 10px 10px 10px 10px;
+    display: flex;
+        padding: 4px 20px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 10px;
+    
 }
 .button1{
-    color: red;
-    background-color: white;
-    border: 1px solid red;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 4px 20px;
+    border: none;
 }
 .button2{
-    color: white;
-    background-color: red;
+    background-color: white;
+    color: red;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 1px 25px;
+    border: none;
     border: 1px solid red;
-    padding-left: 1000px;
+}
+
+.navbar input{
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+.iconn{
+    display: none;
+}
+@media screen and (max-width: 990px) {
+    .navb{
+        width: 220%;
+        position: sticky;
+	    top: 0;
+        background-color: white;
+        z-index:99;
+        
+ 
+    }
+    .checkbtn{
+        display: block;
+    }
+    .log{
+        float: left;
+        flex: 100%;
+        margin-left: 50px;
+       
+       
+    }
+   .litex{
+        width: 100%;
+        display: none;
+
+        
+    }
+    
 }

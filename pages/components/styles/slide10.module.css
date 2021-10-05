@@ -1,3 +1,39 @@
-.image{
-    padding: 60px;
+.container{
+    background-position: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+    background: #DDDDDD;
+    
+}
+.img{
+    text-align: center;
+   
+}
+.text{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    display: flex;
+    margin-left: 660px;
+
+}
+.button1{
+    text-align: center;
+    margin-left: 10px;
+}
+.button2{
+    text-align: center;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px){
+    .container{
+       width: 220%;
+       align-items: center;
+       
+    }
+    .button{
+        margin-left: 280px;
+    }
 }

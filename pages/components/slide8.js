@@ -5,7 +5,7 @@ import image12 from '../../public/lofe.png'
 export default function  Slide8(){
     return(
         <div className={styles.container}>
-        <div className={styles.row}>
+       
             <div className={styles.text}>
                <h1>The most intuitive  platform for managing all your enterprise logistics</h1>
                <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -16,7 +16,7 @@ export default function  Slide8(){
             </div>
             <div className={styles.Img}>
                 <div className={styles.imgbox}>
-                    <img src={image12} width='500px' alt='image12'/> 
+                    <img src={image12} width='500px' alt='image12' /> 
                    
                 </div>
 
@@ -25,7 +25,7 @@ export default function  Slide8(){
 
 
 
-        </div>
+    
 
     </div>
     )
